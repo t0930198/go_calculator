@@ -1,3 +1,6 @@
-##double click server.exe to run calculator http server listen on 8081 port
-##and use command line to start client, ".\client.exe operator operand1 operand2"
-##e.g. ".\client.exe add 0.2 3.1" and you will get 3.3
+##Setup
+
+###double click server.exe to run calculator http server listen on 3000 port
+###and use command line to start client, ".\client.exe".
+###Following the require to input operator, operand, ip address
+###you will get the answer

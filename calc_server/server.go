@@ -14,7 +14,7 @@ func main() {
 	router.HandleFunc("/sub", sub).Methods("GET")
 	router.HandleFunc("/mul", mul).Methods("GET")
 	router.HandleFunc("/div", div).Methods("GET")
-	log.Fatal(http.ListenAndServe(":8081", router))
+	log.Fatal(http.ListenAndServe(":3000", router))
 }
 
 func add(w http.ResponseWriter, req *http.Request) {
